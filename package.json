@@ -1,0 +1,21 @@
+{
+  "name": "aws-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pipeline.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "youssef maghzaz",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.985.0",
+    "csv": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
